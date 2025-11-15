@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional del equipo - Hojas de vida y experiencia">
+    <title>Portafolio Profesional - Equipo Desarrollo Web</title>
+    <link rel="stylesheet" href="../PortafolioHV/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación Principal -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Portfolio<span class="highlight">Team</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="#team" class="nav-link">Equipo</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Desarrolladores Web Profesionales</h1>
+            <p class="hero-subtitle">Transformamos ideas en experiencias digitales excepcionales</p>
+            <div class="hero-buttons">
+                <a href="#team" class="btn btn-primary">Conocer al Equipo</a>
+                <a href="#contact" class="btn btn-secondary">Contáctanos</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Somos un equipo apasionado de desarrolladores web comprometidos con la excelencia
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Nuestra Misión</h3>
+                    <p>
+                        Nos dedicamos a crear soluciones web innovadoras que impulsen el éxito de nuestros clientes.
+                        Con una combinación única de creatividad, experiencia técnica y enfoque en el usuario,
+                        transformamos conceptos en realidades digitales impactantes.
+                    </p>
+                    <h3>Nuestros Valores</h3>
+                    <ul class="values-list">
+                        <li><strong>Innovación:</strong> Buscamos constantemente nuevas formas de resolver problemas</li>
+                        <li><strong>Calidad:</strong> Cada línea de código refleja nuestro compromiso con la excelencia</li>
+                        <li><strong>Colaboración:</strong> Trabajamos juntos para lograr resultados extraordinarios</li>
+                        <li><strong>Aprendizaje:</strong> Nos mantenemos actualizados con las últimas tecnologías</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Proyectos Completados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfacción Cliente</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Años Experiencia</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Tecnologías</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Equipo -->
+    <section id="team" class="section team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Conoce a los profesionales que hacen posible cada proyecto
+                </p>
+            </div>
+            <div class="team-grid">
+                <!-- Miembro 1 -->
+                <div class="team-card">
+                    <div class="team-card-image">
+                        <img src="images/member1.jpg" alt="María García" onerror="this.src='https://via.placeholder.com/300x300/667eea/ffffff?text=MG'">
+                        <div class="team-overlay">
+                            <a href="pages/maria-garcia.html" class="btn-view-cv">Ver Hoja de Vida</a>
+                        </div>
+                    </div>
+                    <div class="team-card-content">
+                        <h3>Rosa Tarazona</h3>
+                        <p class="team-role">Desarrolladora Frontend</p>
+                        <p class="team-description">
+                            Especialista en crear interfaces de usuario intuitivas y responsivas con React y Vue.js
+                        </p>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn"><i class="social-icon">in</i></a>
+                            <a href="#" aria-label="GitHub"><i class="social-icon">gh</i></a>
+                            <a href="#" aria-label="Email"><i class="social-icon">@</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Miembro 2 -->
+                <div class="team-card">
+                    <div class="team-card-image">
+                        <img src="images/member2.jpg" alt="Carlos Rodríguez" onerror="this.src='https://via.placeholder.com/300x300/764ba2/ffffff?text=CR'">
+                        <div class="team-overlay">
+                            <a href="pages/carlos-rodriguez.html" class="btn-view-cv">Ver Hoja de Vida</a>
+                        </div>
+                    </div>
+                    <div class="team-card-content">
+                        <h3>Javier Leon</h3>
+                        <p class="team-role">Desarrollador Backend</p>
+                        <p class="team-description">
+                            Experto en arquitectura de sistemas escalables con Node.js, Python y bases de datos
+                        </p>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn"><i class="social-icon">in</i></a>
+                            <a href="#" aria-label="GitHub"><i class="social-icon">gh</i></a>
+                            <a href="#" aria-label="Email"><i class="social-icon">@</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Miembro 3 -->
+                <div class="team-card">
+                    <div class="team-card-image">
+                        <img src="images/member3.jpg" alt="Ana Martínez" onerror="this.src='https://via.placeholder.com/300x300/f093fb/ffffff?text=AM'">
+                        <div class="team-overlay">
+                            <a href="pages/ana-martinez.html" class="btn-view-cv">Ver Hoja de Vida</a>
+                        </div>
+                    </div>
+                    <div class="team-card-content">
+                        <h3>Eduard Rosero</h3>
+                        <p class="team-role">Diseñador UX/UI</p>
+                        <p class="team-description">
+                            Creador de experiencias digitales centradas en el usuario con Figma y Adobe XD
+                        </p>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn"><i class="social-icon">in</i></a>
+                            <a href="#" aria-label="GitHub"><i class="social-icon">gh</i></a>
+                            <a href="#" aria-label="Email"><i class="social-icon">@</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Tecnologías y herramientas que dominamos
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5 & CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" S="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript / TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React / Vue.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js / Express</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python / Django</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Bases de Datos</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Diseño</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Figma / Adobe XD</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">UI/UX Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Responsive Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    ¿Tienes un proyecto en mente? ¡Hablemos!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>contacto@portfolioteam.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>Teléfono</h3>
+                        <p>+57 300 123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3>Ubicación</h3>
+                        <p>Bogotá, Colombia</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="enviarMensaje()">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio<span class="highlight">Team</span></h3>
+                    <p>Creando experiencias digitales excepcionales desde 2022</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#team">Equipo</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="footer-social">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PortfolioTeam. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
