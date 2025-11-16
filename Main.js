@@ -1,6 +1,6 @@
-// ==========================================
+
 // CONFIGURACIÓN GLOBAL Y VARIABLES
-// ==========================================
+
 document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
     initScrollEffects();
@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     initSkillBars();
 });
 
-// ==========================================
+
 // NAVEGACIÓN Y MENÚ HAMBURGUESA
-// ==========================================
+
 function initNavigation() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
@@ -54,9 +54,9 @@ function initNavigation() {
     });
 }
 
-// ==========================================
+
 // EFECTOS DE SCROLL
-// ==========================================
+
 function initScrollEffects() {
     const navbar = document.querySelector('.navbar');
     
@@ -71,9 +71,9 @@ function initScrollEffects() {
     });
 }
 
-// ==========================================
+
 // ANIMACIONES AL HACER SCROLL
-// ==========================================
+
 function initAnimations() {
     const observerOptions = {
         threshold: 0.1,
@@ -100,9 +100,9 @@ function initAnimations() {
     });
 }
 
-// ==========================================
+
 // ANIMACIÓN DE BARRAS DE HABILIDADES
-// ==========================================
+
 function initSkillBars() {
     const skillBars = document.querySelectorAll('.skill-progress');
     
@@ -128,9 +128,9 @@ function initSkillBars() {
     });
 }
 
-// ==========================================
+
 // SMOOTH SCROLL PARA TODOS LOS ENLACES
-// ==========================================
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -145,9 +145,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// ==========================================
+
 // FUNCIÓN PARA ENVIAR MENSAJE
-// ==========================================
+
 function enviarMensaje() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -175,9 +175,9 @@ function enviarMensaje() {
     document.getElementById('message').value = '';
 }
 
-// ==========================================
+
 // SISTEMA DE NOTIFICACIONES
-// ==========================================
+
 function mostrarNotificacion(mensaje, tipo = 'success') {
     // Crear elemento de notificación
     const notificacion = document.createElement('div');
@@ -253,9 +253,9 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// ==========================================
+
 // EFECTOS DE PARALLAX
-// ==========================================
+
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxElements = document.querySelectorAll('.hero-content');
@@ -266,9 +266,9 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// ==========================================
+
 // CONTADOR ANIMADO PARA ESTADÍSTICAS
-// ==========================================
+
 function animateCounters() {
     const counters = document.querySelectorAll('.stat-number');
     const speed = 200;
@@ -316,9 +316,9 @@ function animateCounters() {
 // Iniciar contadores
 animateCounters();
 
-// ==========================================
+
 // LOADING ANIMADO PARA IMÁGENES
-// ==========================================
+
 document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('img');
     
@@ -332,9 +332,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// ==========================================
-// CURSOR PERSONALIZADO (OPCIONAL)
-// ==========================================
+
+// CURSOR PERSONALIZADO 
+
 function initCustomCursor() {
     const cursor = document.createElement('div');
     cursor.className = 'custom-cursor';
@@ -370,8 +370,8 @@ function initCustomCursor() {
     });
 }
 
-// Descomentar para activar cursor personalizado
-// initCustomCursor();
+
+initCustomCursor();
 
 console.log('✅ Portfolio Team - JavaScript cargado correctamente');
 console.log('🚀 Desarrollado con pasión por el equipo');
